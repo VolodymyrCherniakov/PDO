@@ -1,5 +1,4 @@
-# PDO
-Komunikace STM32 a Matlab
+# Komunikace STM32 a Matlab
 
 Tento projekt umožňuje efektivní propojení mikrokontroléru STM32 s MATLABem pro sběr, analýzu a vizualizaci dat. Podporuje metod přenosu přes USB (virtual Com Port).
 
