@@ -137,7 +137,8 @@ Před samotnou instalací a spuštěním aplikace je nutné mít připravené n�
 1. Stáhněte a nainstalujte vývojové prostředí **STM32CubeIDE** z oficiálních stránek STMicroelectronics.
 2. Navštivte repozitář projektu na GitHubu: [https://github.com/VolodymyrCherniakov/STM32-Matlab-Projekt](https://github.com/VolodymyrCherniakov/STM32-Matlab-Projekt) a stáhněte archiv **F732.zip**.
 3. Rozbalte obsah archivu do pracovního adresáře pro projekty v CubeIDE.
-4. Připojte mikrokontrolér **STM32F732RET6** a programátor **STLINK-V3MINI**.
+4. Připojte mikrokontrolér **STM32F732RET6** a programátor **STLINK-V3MINI** k počitači.
+![Pripojeni](images/pripojeni.jpg)
 5. Načtěte projekt v CubeIDE pomocí souboru `.project` a otevřete soubor `F732/Core/Src/main.c`.
 6. Přejděte do nabídky **Debug Configurations**:
    ![Debug](images/debug.jpg)
@@ -172,6 +173,7 @@ Po úspěšné instalaci vývojových nástrojů a nahrání projektu pokračujt
 ### 5.1 Spuštění aplikace ve STM32CubeIDE
 
 1. Připojte mikrokontrolér **STM32F732RET6** a programátor **STLINK-V3MINI** k počítači přes USB.
+![Pripojeni](images/pripojeni.jpg)
 2. V **STM32CubeIDE** otevřete pracovní adresář s projektem.
 3. Otevřete hlavní soubor firmwaru:  
    `F732/Core/Src/main.c`
