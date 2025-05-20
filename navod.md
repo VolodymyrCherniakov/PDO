@@ -140,7 +140,7 @@ Před samotnou instalací a spuštěním aplikace je nutné mít připravené n�
 4. Připojte mikrokontrolér **STM32F732RET6** a programátor **STLINK-V3MINI** k počitači.
 ![Pripojeni](images/pripojeni.jpg)
 5. Načtěte projekt v CubeIDE pomocí souboru `.project` a otevřete soubor `F732/Core/Src/main.c`.
-6. Přejděte do nabídky **Debug Configurations**:
+6. Přejděte do **Debug Configurations**:
    ![Debug](images/debug.jpg)
    *Obrázek 4.1: Jak najít Debug Configurations*
 
